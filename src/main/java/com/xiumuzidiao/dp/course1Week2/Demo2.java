@@ -19,8 +19,8 @@ public class Demo2 {
 
     public static void main(String[] args) {
 
-        INDArray[] i =loadTrainAndTestDataSets("C:\\Users\\220\\Desktop\\train_catvnoncat.h5",
-         "C:\\Users\\220\\Desktop\\test_catvnoncat.h5");           
+        INDArray[] i =loadTrainAndTestDataSets("C:\\Users\\xxcxzc\\Desktop\\train_catvnoncat.h5",
+         "C:\\Users\\xxcxzc\\Desktop\\test_catvnoncat.h5");           
 
         INDArray  trainSetxOrig = i[0].castTo(DataType.FLOAT); 
         INDArray  trainSetyOrig = i[1].castTo(DataType.FLOAT); 
